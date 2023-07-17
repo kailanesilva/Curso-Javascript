@@ -1,0 +1,28 @@
+body {
+    background-color:rgb(121, 209, 180)
+}
+
+header {
+    color: blue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div {
+    text-align: center;
+}
+ section {
+    background-color: paleturquoise;
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px blue;
+
+}
+
+
+
+footer {
+    color: blue;
+    text-align: center;
+}

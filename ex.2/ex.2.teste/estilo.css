@@ -1,0 +1,30 @@
+body {
+    background-color: burlywood;
+}
+
+h1,p,footer,div#res{
+    color: white;
+    text-align: center;
+}
+
+section {
+   width: 500px;
+   margin: auto;
+   padding: 50px;
+   background-color: coral;
+   border-radius: 20px;
+   box-shadow: 2px 2px 2px 2px white;
+}
+
+div{
+    text-align: center;
+}
+footer{
+    font-style: italic;
+}
+
+img{
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+}

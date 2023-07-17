@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando DOM-2</title>
+    <style>
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+div#d {
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: darkcyan;
+    width: 300px;
+    line-height: 200px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Vamos Brincar Um Pouco?</h1>
+    <div id="d">Vamos Interajir?</div>
+    <script>
+        var div = window.document.getElementById('d')
+
+        addEventListener('click',clicar)
+        addEventListener('mouseenter',entrar)
+        addEventListener('mousemove',mover)
+        addEventListener('mouseout',sair)
+
+        function clicar(){
+            div.innerText = 'Clicou!'
+            div.style.background = 'cyan'
+        }
+        function entrar() {
+            div.innerText = 'Entrou!'
+            div.style.background = 'dodgerblue'
+        }
+        function mover() {
+            div.innerText = 'Está se movendo!'
+            div.style.background = 'darkturquoise'
+        }
+        function sair() {
+            div.innerText = 'Saiu...que pena'
+            div.style.background = 'red'
+        }
+    </script>
+</body>
+</html>

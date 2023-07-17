@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interagindo com o sistema</title>
+</head>
+<body>
+    <h1>Interagindo com o Sistema</h1>
+    <input type="button" value="Clique em mim" style="height: 80px; width: 200px;" onclick="verificar()">
+    <br><br>
+    <div id="res">
+     Aqui vai aparecer algo...
+    </div>
+    <script>
+        function verificar(){
+            let res = document.getElementById('res')
+            let agora = new Date()
+            res.innerHTML = `O que eu recebi do sistema foi <mark>${agora}</mark>`
+        }
+    </script>
+</body>
+</html>

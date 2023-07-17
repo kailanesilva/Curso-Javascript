@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando DOM</title>
+    <style>
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: deeppink;
+}
+input#num1, input#num2{
+    height: 20px;
+    background-color: pink;
+    border-color: palevioletred;
+    color: rgb(245, 13, 129);
+}
+div#area {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: deeppink;
+    margin-top:  20px;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <h1>Subtraindo Números</h1>
+    <input type="number" name="num1" id="num1"> -
+    <input type="number" name="num2" id="num2">
+    <input type="button" value="subtrair" onclick="subtrair()">  
+    <div id="area">Resultado:</div>
+    <script>
+        function subtrair(){
+        var um1 = window.document.getElementById ('num1')
+        var um2 = window.document.getElementById ('num2')
+        var res = window.document.getElementById ('area')
+        var n1 = Number(um1.value)
+        var n2 = Number(um2.value)
+        var s = n1 - n2
+        res.innerHTML = `A subtração entre ${n1} e ${n2} é igual a <strong>${s}</strong>.`
+        }
+    </script>
+</body>
+</html>

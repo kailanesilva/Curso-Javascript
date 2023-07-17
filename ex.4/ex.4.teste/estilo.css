@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+header {
+   color: yellow;
+   text-align: center;
+}
+
+section {
+    color: yellow;
+    background-color: rgb(44, 42, 42);
+    width: 500px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+footer {
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+}

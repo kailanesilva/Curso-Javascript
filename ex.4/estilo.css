@@ -1,0 +1,30 @@
+body {
+  background: rgb(127, 228, 127);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+  color:green;
+  text-align: center;
+
+}
+
+section {
+  border-radius: 10px;
+  padding: 40px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px black;
+  background-color: rgb(191, 247, 191)
+
+}
+
+div {
+  text-align: justify;
+}
+
+footer {
+  color:green;
+  text-align: center;
+  font-style: italic;
+}

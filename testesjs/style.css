@@ -1,0 +1,20 @@
+body{
+    background-color: deeppink;
+    text-align: center;
+}
+
+h1,h2,footer,div{
+    color: white;
+}
+
+section{
+    background-color: lightpink;
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    background-color: pink;
+}

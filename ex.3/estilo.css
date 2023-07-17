@@ -1,0 +1,39 @@
+body {
+  background: rgb(236, 177, 187);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+  color:purple;
+  text-align: center;
+
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px black;
+  background-color: rgb(255, 215, 221)
+
+}
+
+div {
+  text-align: center
+}
+
+footer {
+  color: purple;
+  text-align: center;
+  font-style: italic;
+}
+
+   img#imagem{
+    padding: 15px;
+     width: 200px;
+     height: 200px;
+     
+    
+}
