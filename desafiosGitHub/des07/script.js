@@ -6,5 +6,5 @@ let res = document.getElementById('res')
       let compra = real / dolar 
 
       res.innerHTML = `<h2>Com R$${real}...</h2>`
-      res.innerHTML += `<p>Você consegue comprar aproximadamente ${compra} dólares.`
+      res.innerHTML += `<p>Você consegue comprar aproximadamente ${compra.toFixed(2)}dólares.`
 }
