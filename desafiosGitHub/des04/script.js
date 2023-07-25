@@ -4,5 +4,5 @@ function comprar(){
     let valor = Number(prompt(`Qual foi o valor que você deu para pagar ${produto}?`))
     let troco = valor - preco
 
-    alert(`Você comprou ${produto} que custou R$ ${preco},00.\nDeu R$ ${valor},00 em dinheiro e vai receber R$ ${troco},00 de troco.\nVolte sempre!`)
+    alert(`Você comprou ${produto} que custou R$ ${preco.toFixed(2).replace('.',',')}.\nDeu R$ ${valor.toFixed(2).replace('.',',')} em dinheiro e vai receber R$ ${troco.toFixed(2).replace('.',',')} de troco.\nVolte sempre!`)
 }
