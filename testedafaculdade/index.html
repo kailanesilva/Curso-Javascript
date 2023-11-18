@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquey</title>
+</head>
+<body>
+    <h1>Aplicando jQuery</h1>
+    <p id="paragrafo_texto">Texto do parágrafo</p>
+    <ul>
+        <li class="item_lista">Primeiro item</li>
+        <li class="item_lista">Segundo item</li>
+        <li class="item_lista">Terceiro item</li>
+    </ul>
+    <script type="text/javascript" src="jquery-3.7.1.min.js">
+        console.log($('#paragrafo_texto').html()); //exibe o primeiro parágrafo
+        console.log($('.item_lista').eq(0).html()); //exibe o primeiro item da lista
+    </script>
+</body>
+</html>
